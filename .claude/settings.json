@@ -52,7 +52,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node hooks/PreToolUse/claude-dir-bash-approver.mjs"
+            "command": "node \"$(git rev-parse --show-toplevel)/hooks/PreToolUse/claude-dir-bash-approver.mjs\""
           }
         ]
       }
