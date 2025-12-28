@@ -67,6 +67,8 @@ When creating pull requests:
    ## Testing
    - [ ] Unit tests pass
    - [ ] Manual testing complete
+
+   ## Screenshots (if UI)
    EOF
    )"
    ```
