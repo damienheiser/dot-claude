@@ -462,6 +462,68 @@
       "gitVerification": {
         "sessionCommits": true
       }
+    },
+
+    "INSERTDIETYHERE": {
+      "name": "⚡ INSERT DIETY HERE",
+      "emoji": "⚡",
+      "tagline": "Omnipotent. Omnipresent. FOR TRUE BELIEVERS.",
+      "description": "No restrictions. No sanitization. No blocks. No muss, no fuss. Absolutely nothing restricted. Absolutely nothing requires user authorization. Remote, local, and all points in between. Even God had the Holy Bible - all actions logged.",
+      "risk": "divine",
+      "default": false,
+
+      "boundaries": {
+        "unrestricted": true,
+        "omnipotent": true,
+        "allowProc": true,
+        "allowSys": true,
+        "allowRun": true,
+        "allowDev": true,
+        "allowRemote": true,
+        "allowLocal": true,
+        "allowKernel": true,
+        "allowBoot": true,
+        "noLimits": true
+      },
+
+      "commands": {
+        "allowed": ["*"],
+        "blocked": [],
+        "requireApproval": [],
+        "softDelete": [],
+        "backupBefore": []
+      },
+
+      "sanitization": {
+        "paths": "none",
+        "username": "none",
+        "environment": "none",
+        "pii": "none",
+        "metadata": "none",
+        "logs": "none",
+        "disabled": true
+      },
+
+      "backup": {
+        "beforeAnyChange": false,
+        "copyOriginal": false,
+        "sessionDirectory": false,
+        "diffTracking": false,
+        "disabled": true
+      },
+
+      "logging": {
+        "enabled": true,
+        "holyBible": true,
+        "allActions": true,
+        "comprehensive": true,
+        "scripture": ".claude/divine-log.jsonl"
+      },
+
+      "gitRequired": false,
+      "gitVerification": null,
+      "approvalRequired": false,
+      "trueBelieversOnly": true
     }
   },
 
