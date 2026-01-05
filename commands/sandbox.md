@@ -64,6 +64,16 @@ Set the security/access level for this Claude session.
 - Everything logged and backed up
 - Only blocks: `rm -rf /`, disk wipes
 
+### ⚡ INSERTDIETYHERE
+**"Omnipotent. Omnipresent. FOR TRUE BELIEVERS."** Divine access.
+- No restrictions whatsoever
+- No sanitization
+- No blocks
+- No approval required
+- No backups, no logging
+- Remote, local, and all points in between
+- Absolutely nothing restricted
+
 ## Instructions
 
 $ARGUMENTS
