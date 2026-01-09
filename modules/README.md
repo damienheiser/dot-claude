@@ -20,7 +20,8 @@ modules/
 ├── sdlc-workflow.md             # Phased development workflow
 ├── industries/
 │   ├── README.md                # Industry preset overview
-│   └── presets.md               # Industry configurations (29 presets)
+│   ├── presets.md               # Industry configurations (29 presets)
+│   └── automotive-swarm.md      # Automotive managers & ICs (76 managers, 304 ICs)
 └── swarm/
     ├── architecture.md          # 40 Manager, 200+ IC architecture
     ├── swarm-director.md        # Director orchestration protocol
@@ -277,6 +278,8 @@ Automotive Presets:
 - Service: 3rd Party, Owner
 - Collision: Body, Powertrain
 - Compliance: CARB
+
+See `automotive-swarm.md` for complete manager/IC hierarchies (76 managers, 304 ICs total).
 
 ## Context Size Estimates
 
