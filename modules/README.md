@@ -20,7 +20,7 @@ modules/
 ├── sdlc-workflow.md             # Phased development workflow
 ├── industries/
 │   ├── README.md                # Industry preset overview
-│   └── presets.md               # Industry configurations (14 presets)
+│   └── presets.md               # Industry configurations (29 presets)
 └── swarm/
     ├── architecture.md          # 40 Manager, 200+ IC architecture
     ├── swarm-director.md        # Director orchestration protocol
@@ -51,7 +51,7 @@ Modules load based on `.claude/config/features.json`:
 | Teams | 15 | `/team {type}` |
 | Parallel Models | 7 | Spawn patterns |
 | Project Templates | 35 | `/start-project {type}` |
-| Industry Presets | 14 | Config or `/init-autonomous` |
+| Industry Presets | 29 | Config or `/init-autonomous` |
 | Managers | 40 | Swarm mode |
 | ICs | 200+ | Swarm mode |
 
@@ -259,14 +259,24 @@ Contains:
 
 ### Industry Presets
 **Path:** `industries/presets.md`
-**Size:** ~400 lines
+**Size:** ~800 lines
 **Purpose:** Pre-configured swarm domain selections for industry verticals.
 
 Contains:
-- 14 Industry configurations (SaaS, Fintech, E-commerce, Healthcare, etc.)
+- 29 Industry configurations total:
+  - 14 General industries (SaaS, Fintech, E-commerce, Healthcare, Gaming, etc.)
+  - 15 Automotive verticals (OEM, Dealer, Aftermarket, Collision, Compliance)
 - Optimized domain selections per industry
 - Key ICs emphasized for each vertical
 - JSON configuration examples
+
+Automotive Presets:
+- OEM: Supplier, Reverse Engineering, Manufacturer, Engineering, R&D
+- Dealer: Sales, Service
+- Aftermarket: Reverse Engineering, Tuning, Product Design
+- Service: 3rd Party, Owner
+- Collision: Body, Powertrain
+- Compliance: CARB
 
 ## Context Size Estimates
 
@@ -276,9 +286,9 @@ Contains:
 | With Scopes | + scope-system | ~550 |
 | Director Mode | + director + parallel + teams + personalities + consultants | ~1800 |
 | With Templates | + project-templates | ~2150 |
-| With Industry | + industries/presets | ~2550 |
-| Full Swarm | + swarm/*.md | ~4400 |
-| Everything | all modules | ~4700 |
+| With Industry | + industries/presets | ~2950 |
+| Full Swarm | + swarm/*.md | ~4800 |
+| Everything | all modules | ~5100 |
 
 ## Usage
 

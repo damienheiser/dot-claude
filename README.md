@@ -54,7 +54,7 @@ dot-claude transforms Claude Code into a fully autonomous development system cap
 │ SPECIALIZATION                                                  │
 │ ├── 13 Personalities (/persona)                                │
 │ ├── 36 Expert Consultants (/consult)                           │
-│ ├── 14 Industry Presets                                        │
+│ ├── 29 Industry Presets (including 15 Automotive)              │
 │ └── 6 Dynamic Scopes (/scope)                                  │
 ├─────────────────────────────────────────────────────────────────┤
 │ PROJECT SETUP                                                   │
@@ -96,7 +96,7 @@ cd your-project
 | Teams | 15 | `/team {type}` | Pre-configured parallel teams |
 | Parallel Models | 7 | Config | Alternative agent architectures |
 | Project Templates | 35 | `/start-project {type}` | Guided project scaffolding |
-| Industry Presets | 14 | `/init-autonomous` | Vertical-specific configurations |
+| Industry Presets | 29 | `/init-autonomous` | Vertical-specific configurations |
 | Managers | 40 | `/swarm` | Hierarchical team managers |
 | ICs | 200+ | `/swarm` | Specialized individual contributors |
 | Sandbox Levels | 10 | `/sandbox {level}` | Security access controls |
@@ -399,9 +399,11 @@ Enterprise-scale hierarchical orchestration:
 
 ---
 
-## Industry Presets (14)
+## Industry Presets (29)
 
 Pre-configured swarm domain selections for industry verticals:
+
+### General Industries
 
 | Industry | Managers | Key Focus Areas |
 |----------|----------|-----------------|
@@ -410,15 +412,35 @@ Pre-configured swarm domain selections for industry verticals:
 | **E-commerce** | 16 | Product catalogs, checkout, inventory, A/B testing |
 | **Healthcare** | 17 | HIPAA, HL7/FHIR, patient portals, audit trails |
 | **Gaming** | 14 | Real-time multiplayer, matchmaking, anti-cheat |
-| **Real Estate** | 13 | MLS integration, virtual tours, CRM |
 | **Education** | 14 | LMS, assessments, plagiarism detection, SCORM |
 | **Media/Entertainment** | 15 | Streaming, CDN, DRM, recommendations |
-| **Manufacturing** | 14 | IoT, SCADA, supply chain, quality control |
-| **Cannabis** | 15 | Seed-to-sale tracking, compliance, POS |
-| **Hospitality** | 14 | PMS, reservations, channel management |
-| **Legal/Professional** | 13 | Document management, billing, matter tracking |
-| **Non-Profit** | 12 | Donor management, grants, volunteer coordination |
-| **Government** | 16 | FedRAMP, accessibility, citizen services |
+| **IoT/Hardware** | 15 | Device management, firmware OTA, edge computing |
+| **Marketplace** | 16 | Two-sided platforms, trust/safety, escrow |
+| **Enterprise** | 20 | SSO/LDAP, workflow, multi-region, governance |
+| **AI/ML Product** | 12 | MLOps, model serving, RAG, fine-tuning |
+| **Agency** | 12 | Multi-client, rapid prototyping, handoff |
+| **Startup** | 8 | MVP, iteration, growth hacking |
+| **Government** | 16 | FedRAMP, Section 508, NIST, clearance |
+
+### Automotive Industries (15)
+
+| Industry | Preset Key | Managers | Key Focus Areas |
+|----------|------------|----------|-----------------|
+| **OEM Supplier** | `auto-oem-supplier` | 16 | EDI, IATF 16949, PPAP, tier coordination |
+| **OEM Reverse Engineering** | `auto-oem-reverse` | 14 | CAN bus, ECU extraction, UDS, J2534 |
+| **OEM Manufacturer** | `auto-oem-manufacturer` | 18 | MES, plant floor, quality gates, traceability |
+| **OEM Engineering** | `auto-oem-engineering` | 16 | PLM, CAD exchange, DFMEA, BOM management |
+| **OEM R&D** | `auto-oem-rd` | 15 | HIL/SIL, ADAS, EV/battery, autonomous |
+| **Dealer Sales** | `auto-dealer-sales` | 12 | DMS, CRM, F&I, desking, credit apps |
+| **Dealer Service** | `auto-dealer-service` | 14 | Scheduling, warranty, parts, TSB/recall |
+| **Aftermarket Reverse Eng** | `auto-aftermarket-reverse` | 13 | OBD PIDs, ECU flash, scan tools |
+| **3rd Party Service** | `auto-3rdparty-service` | 12 | Multi-make diag, AllData/Mitchell, ADAS cal |
+| **Collision Body** | `auto-collision-body` | 13 | CCC/Mitchell, photo AI, DRP, paint codes |
+| **Collision Powertrain** | `auto-collision-powertrain` | 12 | Drivetrain, frame, EV safety, alignment |
+| **Aftermarket Tuning** | `auto-aftermarket-tuning` | 14 | ECU cal, dyno, boost maps, flex fuel |
+| **Aftermarket Product** | `auto-aftermarket-product` | 15 | CAD, FEA/CFD, fitment DB, prototyping |
+| **CARB Compliance** | `auto-carb-compliance` | 14 | Executive orders, emissions test, anti-tamper |
+| **Owner Servicing** | `auto-owner-service` | 10 | DIY guides, parts lookup, torque specs |
 
 Configure via `/init-autonomous` or `features.json`:
 
