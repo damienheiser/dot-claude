@@ -442,6 +442,9 @@ Pre-configured swarm domain selections for industry verticals:
 | **CARB Compliance** | `auto-carb-compliance` | 14 | Executive orders, emissions test, anti-tamper |
 | **Owner Servicing** | `auto-owner-service` | 10 | DIY guides, parts lookup, torque specs |
 
+**Automotive Swarm Totals**: 76 Managers, 304 ICs across all automotive verticals.
+See [automotive-swarm.md](modules/industries/automotive-swarm.md) for complete hierarchies.
+
 Configure via `/init-autonomous` or `features.json`:
 
 ```json
