@@ -375,3 +375,421 @@ load_when: industryPreset
 - Video Streaming IC
 - Certification IC
 - Gamification IC
+
+---
+
+## Automotive - OEM Supplier (16 Managers)
+
+**Focus**: Supply chain, quality systems, EDI integration, tier coordination
+
+```json
+{
+  "industryPreset": "auto-oem-supplier",
+  "swarmDomains": [
+    "discovery", "product", "architecture", "design",
+    "backend", "integration", "operations", "quality",
+    "release", "documentation", "compliance", "data",
+    "infrastructure", "manufacturing", "supply-chain", "logistics"
+  ]
+}
+```
+
+**Key ICs Emphasized**:
+- EDI Integration IC (ANSI X12, EDIFACT)
+- IATF 16949 Quality IC
+- PPAP Documentation IC
+- Tier 1/2/3 Coordination IC
+- JIT/Kanban Inventory IC
+- Supplier Portal IC
+- IMDS Material Compliance IC
+
+---
+
+## Automotive - OEM Reverse Engineering (14 Managers)
+
+**Focus**: Protocol analysis, ECU mapping, firmware extraction, CAN/LIN diagnostics
+
+```json
+{
+  "industryPreset": "auto-oem-reverse",
+  "swarmDomains": [
+    "discovery", "architecture", "backend", "security",
+    "quality", "release", "documentation", "research",
+    "embedded", "protocols", "data", "tooling",
+    "compliance", "testing"
+  ]
+}
+```
+
+**Key ICs Emphasized**:
+- CAN Bus Analysis IC
+- ECU Firmware Extraction IC
+- UDS Protocol IC (ISO 14229)
+- OBD-II/EOBD IC
+- J2534 Passthru IC
+- Calibration Mapping IC
+- Binary Analysis IC
+- Hardware Security Module IC
+
+---
+
+## Automotive - OEM Manufacturer (18 Managers)
+
+**Focus**: MES integration, plant floor systems, quality gates, production optimization
+
+```json
+{
+  "industryPreset": "auto-oem-manufacturer",
+  "swarmDomains": [
+    "discovery", "product", "architecture", "design",
+    "backend", "integration", "operations", "quality",
+    "release", "documentation", "security", "compliance",
+    "infrastructure", "manufacturing", "supply-chain", "data",
+    "observability", "automation"
+  ]
+}
+```
+
+**Key ICs Emphasized**:
+- MES Integration IC
+- Plant Floor HMI IC
+- Quality Gate IC
+- Traceability IC (VIN tracking)
+- Line Balancing IC
+- Andon System IC
+- SCADA Integration IC
+- OEE Dashboard IC
+
+---
+
+## Automotive - OEM Engineering (16 Managers)
+
+**Focus**: CAD/CAM/CAE, PLM integration, DFMEA, simulation
+
+```json
+{
+  "industryPreset": "auto-oem-engineering",
+  "swarmDomains": [
+    "discovery", "product", "architecture", "design",
+    "backend", "integration", "quality", "release",
+    "documentation", "research", "data", "infrastructure",
+    "simulation", "testing", "compliance", "collaboration"
+  ]
+}
+```
+
+**Key ICs Emphasized**:
+- PLM Integration IC (Teamcenter, Windchill)
+- CAD Data Exchange IC (STEP, JT, IGES)
+- DFMEA/PFMEA IC
+- Simulation Results IC
+- BOM Management IC
+- Change Management IC
+- Engineering Release IC
+- A-Surface Design IC
+
+---
+
+## Automotive - OEM R&D (15 Managers)
+
+**Focus**: Advanced development, prototype systems, testing validation, IP protection
+
+```json
+{
+  "industryPreset": "auto-oem-rd",
+  "swarmDomains": [
+    "discovery", "product", "architecture", "design",
+    "backend", "quality", "documentation", "security",
+    "research", "embedded", "testing", "simulation",
+    "data", "infrastructure", "compliance"
+  ]
+}
+```
+
+**Key ICs Emphasized**:
+- Prototype Build IC
+- HIL/SIL Testing IC
+- ADAS Development IC
+- Battery/EV Systems IC
+- Autonomous Vehicle IC
+- Connected Car IC
+- Patent Documentation IC
+- Test Fleet Management IC
+
+---
+
+## Automotive - Dealer Sales (12 Managers)
+
+**Focus**: DMS integration, CRM, F&I, inventory management
+
+```json
+{
+  "industryPreset": "auto-dealer-sales",
+  "swarmDomains": [
+    "discovery", "product", "architecture", "design",
+    "frontend", "backend", "integration", "operations",
+    "quality", "analytics", "communications", "growth"
+  ]
+}
+```
+
+**Key ICs Emphasized**:
+- DMS Integration IC (CDK, Reynolds, Dealertrack)
+- CRM Lead Management IC
+- F&I Menu System IC
+- Desking/Pencil IC
+- Inventory Pricing IC
+- OEM Incentive IC
+- Credit Application IC
+- Trade Appraisal IC
+
+---
+
+## Automotive - Dealer Service (14 Managers)
+
+**Focus**: Service scheduling, warranty claims, parts ordering, technician dispatch
+
+```json
+{
+  "industryPreset": "auto-dealer-service",
+  "swarmDomains": [
+    "discovery", "product", "architecture", "design",
+    "frontend", "backend", "integration", "operations",
+    "quality", "documentation", "communications",
+    "analytics", "scheduling", "inventory"
+  ]
+}
+```
+
+**Key ICs Emphasized**:
+- Service Scheduling IC
+- Warranty Claims IC
+- Parts Ordering IC (OEM EPC)
+- Technician Dispatch IC
+- MPI Inspection IC
+- Service History IC
+- TSB/Recall IC
+- Labor Time Guide IC
+
+---
+
+## Automotive - Aftermarket Reverse Engineering (13 Managers)
+
+**Focus**: OBD protocols, ECU tuning, diagnostics development, scan tool creation
+
+```json
+{
+  "industryPreset": "auto-aftermarket-reverse",
+  "swarmDomains": [
+    "discovery", "architecture", "backend", "security",
+    "quality", "documentation", "research", "embedded",
+    "protocols", "data", "tooling", "testing", "compliance"
+  ]
+}
+```
+
+**Key ICs Emphasized**:
+- OBD-II PID Discovery IC
+- CAN/LIN Reverse IC
+- ECU Bench Flash IC
+- Immobilizer Research IC
+- Protocol Decoder IC
+- Scan Tool Development IC
+- Data Logger IC
+- Checksum/Security Bypass IC
+
+---
+
+## Automotive - 3rd Party Servicing (12 Managers)
+
+**Focus**: Multi-make diagnostics, repair information, parts sourcing, estimating
+
+```json
+{
+  "industryPreset": "auto-3rdparty-service",
+  "swarmDomains": [
+    "discovery", "product", "architecture", "design",
+    "frontend", "backend", "integration", "operations",
+    "quality", "documentation", "inventory", "scheduling"
+  ]
+}
+```
+
+**Key ICs Emphasized**:
+- Multi-Make Diagnostics IC
+- Repair Information IC (AllData, Mitchell)
+- Parts Sourcing IC (aftermarket, OE, reman)
+- Labor Estimating IC
+- Customer Authorization IC
+- Inspection Reporting IC
+- Right to Repair IC
+- ADAS Calibration IC
+
+---
+
+## Automotive - Collision Repair Body (13 Managers)
+
+**Focus**: Estimating, photo AI, DRP management, paint matching, structural repair
+
+```json
+{
+  "industryPreset": "auto-collision-body",
+  "swarmDomains": [
+    "discovery", "product", "architecture", "design",
+    "frontend", "backend", "integration", "operations",
+    "quality", "documentation", "ai-ml", "communications",
+    "compliance"
+  ]
+}
+```
+
+**Key ICs Emphasized**:
+- Estimating IC (CCC, Mitchell, Audatex)
+- Photo AI Damage IC
+- DRP Portal IC
+- Paint Code/Formula IC
+- Structural Analysis IC
+- Calibration Requirements IC
+- Parts Procurement IC
+- Supplement Management IC
+
+---
+
+## Automotive - Collision Repair Powertrain (12 Managers)
+
+**Focus**: Mechanical damage assessment, drivetrain repair, hybrid/EV safety
+
+```json
+{
+  "industryPreset": "auto-collision-powertrain",
+  "swarmDomains": [
+    "discovery", "product", "architecture", "design",
+    "frontend", "backend", "integration", "operations",
+    "quality", "documentation", "compliance", "safety"
+  ]
+}
+```
+
+**Key ICs Emphasized**:
+- Drivetrain Damage IC
+- Frame/Subframe IC
+- EV High-Voltage Safety IC
+- Engine/Trans Assessment IC
+- Alignment Specification IC
+- Cooling System IC
+- Exhaust/Emissions IC
+- Hybrid Battery IC
+
+---
+
+## Automotive - Aftermarket Tuning (14 Managers)
+
+**Focus**: ECU calibration, dyno testing, emissions compliance, performance parts
+
+```json
+{
+  "industryPreset": "auto-aftermarket-tuning",
+  "swarmDomains": [
+    "discovery", "product", "architecture", "backend",
+    "quality", "release", "documentation", "security",
+    "embedded", "testing", "data", "compliance",
+    "ecommerce", "community"
+  ]
+}
+```
+
+**Key ICs Emphasized**:
+- ECU Calibration IC
+- Dyno Data Analysis IC
+- Boost/Timing Map IC
+- Flex Fuel IC
+- Ethanol Content IC
+- Wideband AFR IC
+- Data Logging IC
+- Anti-Tamper IC
+
+---
+
+## Automotive - Aftermarket Product Design (15 Managers)
+
+**Focus**: CAD design, FEA/CFD, fitment verification, manufacturing prep
+
+```json
+{
+  "industryPreset": "auto-aftermarket-product",
+  "swarmDomains": [
+    "discovery", "product", "architecture", "design",
+    "backend", "quality", "release", "documentation",
+    "compliance", "manufacturing", "ecommerce", "data",
+    "simulation", "testing", "supply-chain"
+  ]
+}
+```
+
+**Key ICs Emphasized**:
+- CAD Design IC (SolidWorks, Fusion 360)
+- FEA Analysis IC
+- CFD Analysis IC
+- Fitment Database IC
+- 3D Scanning IC
+- Prototyping IC
+- Tooling Design IC
+- Assembly Instructions IC
+
+---
+
+## Automotive - CARB Compliance (14 Managers)
+
+**Focus**: Emissions certification, EO documentation, anti-tampering, testing protocols
+
+```json
+{
+  "industryPreset": "auto-carb-compliance",
+  "swarmDomains": [
+    "discovery", "product", "architecture", "backend",
+    "quality", "release", "documentation", "compliance",
+    "testing", "data", "legal", "government",
+    "research", "communications"
+  ]
+}
+```
+
+**Key ICs Emphasized**:
+- Executive Order IC
+- Emissions Testing IC
+- OBD-II Compliance IC
+- Catalyst Verification IC
+- Anti-Tampering IC
+- SEMA Action Network IC
+- EPA Liaison IC
+- State-by-State IC
+- Warranty Documentation IC
+
+---
+
+## Automotive - Owner Servicing (10 Managers)
+
+**Focus**: DIY guides, parts lookup, diagnostic assistance, community support
+
+```json
+{
+  "industryPreset": "auto-owner-service",
+  "swarmDomains": [
+    "discovery", "product", "design", "frontend",
+    "backend", "quality", "documentation", "community",
+    "ecommerce", "communications"
+  ]
+}
+```
+
+**Key ICs Emphasized**:
+- DIY Guide IC
+- Parts Interchange IC
+- Diagnostic Assistant IC
+- Torque Spec IC
+- Fluid Capacity IC
+- Maintenance Schedule IC
+- Tool Recommendation IC
+- Community Forum IC
+- Video Tutorial IC
+
